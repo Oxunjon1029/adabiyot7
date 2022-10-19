@@ -1,0 +1,178 @@
+.btn-container {
+  height: 80px;
+  width: 230px;
+  margin: auto;
+  position: relative;
+  z-index: 0;
+}
+.default_audio__div {
+  width: 60%;
+  margin: 10px auto 20px;
+}
+.default_audio__div .rhap_container {
+  border-radius: 5px;
+}
+.default_audio__div .rhap_container svg {
+  color: rgb(27, 25, 25) !important;
+}
+.default_audio__div .rhap_progress-indicator {
+  background-color: rgb(27, 25, 25);
+}
+.default_audio__div .rhap_progress-filled {
+  background-color: rgb(27, 25, 25);
+}
+.default_audio__div .rhap_progress-bar-show-download {
+  background-color: whitesmoke !important;
+}
+.default_audio__div .rhap_volume-bar {
+  background: whitesmoke !important;
+}
+.default_audio__div .rhap_volume-indicator {
+  background-color: rgb(27, 25, 25);
+}
+
+.default_container {
+  position: relative;
+}
+.icon_up_div {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  z-index: 1;
+  opacity: 1;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.icon_up_div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 700px) {
+  .default_audio__div {
+    width: 90%;
+  }
+}
+
+/* Subtle moving gradient with shadow */
+.btn-moving-gradient {
+  height: 55px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.btn-moving-gradient:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.btn-moving-gradient--orange {
+  background-image: linear-gradient(
+    to right,
+    hsl(31, 100%, 50%),
+    hsl(45, 100%, 50%),
+    hsl(41, 100%, 50%),
+    #fbb03b
+  );
+  box-shadow: 0 4px 15px 0 hsl(45, 100%, 40%);
+}
+.btn-moving-gradient--pink {
+  background-image: linear-gradient(
+    to right,
+    hsl(332, 100%, 69%),
+    hsl(390, 100%, 69%),
+    hsl(360, 100%, 69%),
+    #ff6392
+  );
+  box-shadow: 0 4px 15px 0 hsl(370, 100%, 69%);
+}
+.btn-moving-gradient--blue {
+  background-image: linear-gradient(
+    to right,
+    hsl(217, 100%, 62%),
+    hsl(280, 100%, 62%),
+    hsl(260, 100%, 62%),
+    #3a86ff
+  );
+  box-shadow: 0 4px 15px 0 hsl(280, 100%, 62%);
+}
+.btn-moving-gradient--red {
+  background-image: linear-gradient(
+    to right,
+    hsl(353, 86%, 54%),
+    hsl(393, 86%, 54%),
+    hsl(380, 86%, 54%),
+    #ef233c
+  );
+  box-shadow: 0 4px 15px 0 hsl(393, 86%, 54%);
+}
+.btn-moving-gradient--green {
+  background-image: linear-gradient(
+    to right,
+    hsl(134, 75%, 72%),
+    hsl(184, 75%, 72%),
+    hsl(154, 75%, 72%),
+    #80ed99
+  );
+  box-shadow: 0 4px 15px 0 hsl(184, 75%, 72%);
+}
+.btn-moving-gradient--purple {
+  background-image: linear-gradient(
+    to right,
+    hsl(246, 45%, 38%),
+    hsl(296, 45%, 38%),
+    hsl(276, 45%, 38%),
+    #3d348b
+  );
+  box-shadow: 0 4px 15px 0 hsl(296, 45%, 38%);
+}
+
+.defTemp_vidio__content {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.defTemp_xbtn {
+  width: 100%;
+  position: fixed;
+  top: -50px;
+  left: 0;
+  text-align: center;
+  z-index: 20;
+  transition: 0.5s;
+}
+.defTemp_div {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.defTemp_vidio__content:hover .defTemp_xbtn {
+  top: 20px;
+}

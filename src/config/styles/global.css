@@ -1,0 +1,24 @@
+
+.imga img{
+      width: 100%;
+  
+}
+.audio_game_item{
+  font-size: 50px;
+  font-weight: 700;
+  color: blueviolet;
+  letter-spacing: 15px;
+  padding: 3px;
+  cursor: pointer;
+  transition: all 0.3s ;   
+}
+.audio_game_item:hover{
+  color:red;
+}
+.audio_game_element{
+  position: absolute;
+  
+}
+.audio_game_element img{
+  width: 100%;
+}
